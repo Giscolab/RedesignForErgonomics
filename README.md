@@ -35,16 +35,23 @@ Convertissez n'importe quelle photo en planche de peinture numérotée, style pr
 git clone <URL_DU_REPO>
 cd <NOM_DU_DOSSIER>
 
-# 2. Installer les dépendances
+# 2. Installer les dépendances (pnpm uniquement — npm ne supporte pas les alias de ce projet)
 pnpm install
-# ou : npm install
 
 # 3. Lancer le serveur de développement
 pnpm dev
-# ou : npm run dev
 ```
 
 L'application est accessible sur **http://localhost:5173**
+
+> **Windows uniquement** — si vous obtenez l'erreur `Cannot find module @rollup/rollup-win32-x64-msvc`,
+> c'est que pnpm a bloqué les scripts de build natifs. Le fix est déjà inclus dans `package.json`
+> (`onlyBuiltDependencies`), mais il faut relancer l'install :
+> ```powershell
+> Remove-Item -Recurse -Force node_modules
+> pnpm install
+> pnpm dev
+> ```
 
 ### Autres commandes
 

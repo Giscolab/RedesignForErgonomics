@@ -1,0 +1,181 @@
+PowerShell 7.6.3
+PS C:\Users\cadet\Documents\GitHub\RedesignForErgonomics> npm i
+npm error code EINVALIDPACKAGENAME
+npm error Invalid package name "@emotion/react@11.14.0" of package "@emotion/react@11.14.0@npm:@emotion/react@11.14.0": name can only contain URL-friendly characters.
+npm error A complete log of this run can be found in: C:\Users\cadet\AppData\Local\npm-cache\_logs\2026-07-06T17_02_08_852Z-debug-0.log
+PS C:\Users\cadet\Documents\GitHub\RedesignForErgonomics> pnpm install
+ WARN  deprecated recharts@2.15.2: 1.x and 2.x branches are no longer active. Bump to Recharts v3 to receive latest features and bugfixes. See https://github.com/recharts/recharts/wiki/3.0-migration-guide
+Packages: +298
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 358, reused 284, downloaded 14, added 298, done
+
+dependencies:
++ @emotion/react 11.14.0
++ @emotion/react@11.14.0 <- @emotion/react 11.14.0
++ @emotion/styled 11.14.1
++ @emotion/styled@11.14.1 <- @emotion/styled 11.14.1
++ @mui/icons-material 7.3.5 (9.2.0 is available)
++ @mui/icons-material@7.3.5 <- @mui/icons-material 7.3.5 (9.2.0 is available)
++ @mui/material 7.3.5 (9.2.0 is available)
++ @mui/material@7.3.5 <- @mui/material 7.3.5 (9.2.0 is available)
++ @popperjs/core 2.11.8
++ @popperjs/core@2.11.8 <- @popperjs/core 2.11.8
++ @radix-ui/react-accordion 1.2.3 (1.2.15 is available)
++ @radix-ui/react-accordion@1.2.3 <- @radix-ui/react-accordion 1.2.3 (1.2.15 is available)
++ @radix-ui/react-alert-dialog 1.1.6 (1.1.18 is available)
++ @radix-ui/react-alert-dialog@1.1.6 <- @radix-ui/react-alert-dialog 1.1.6 (1.1.18 is available)
++ @radix-ui/react-aspect-ratio 1.1.2 (1.1.11 is available)
++ @radix-ui/react-aspect-ratio@1.1.2 <- @radix-ui/react-aspect-ratio 1.1.2 (1.1.11 is available)
++ @radix-ui/react-avatar 1.1.3 (1.2.1 is available)
++ @radix-ui/react-avatar@1.1.3 <- @radix-ui/react-avatar 1.1.3 (1.2.1 is available)
++ @radix-ui/react-checkbox 1.1.4 (1.3.6 is available)
++ @radix-ui/react-checkbox@1.1.4 <- @radix-ui/react-checkbox 1.1.4 (1.3.6 is available)
++ @radix-ui/react-collapsible 1.1.3 (1.1.15 is available)
++ @radix-ui/react-collapsible@1.1.3 <- @radix-ui/react-collapsible 1.1.3 (1.1.15 is available)
++ @radix-ui/react-context-menu 2.2.6 (2.3.2 is available)
++ @radix-ui/react-context-menu@2.2.6 <- @radix-ui/react-context-menu 2.2.6 (2.3.2 is available)
++ @radix-ui/react-dialog 1.1.6 (1.1.18 is available)
++ @radix-ui/react-dialog@1.1.6 <- @radix-ui/react-dialog 1.1.6 (1.1.18 is available)
++ @radix-ui/react-dropdown-menu 2.1.6 (2.1.19 is available)
++ @radix-ui/react-dropdown-menu@2.1.6 <- @radix-ui/react-dropdown-menu 2.1.6 (2.1.19 is available)
++ @radix-ui/react-hover-card 1.1.6 (1.1.18 is available)
++ @radix-ui/react-hover-card@1.1.6 <- @radix-ui/react-hover-card 1.1.6 (1.1.18 is available)
++ @radix-ui/react-label 2.1.2 (2.1.11 is available)
++ @radix-ui/react-label@2.1.2 <- @radix-ui/react-label 2.1.2 (2.1.11 is available)
++ @radix-ui/react-menubar 1.1.6 (1.1.19 is available)
++ @radix-ui/react-menubar@1.1.6 <- @radix-ui/react-menubar 1.1.6 (1.1.19 is available)
++ @radix-ui/react-navigation-menu 1.2.5 (1.2.17 is available)
++ @radix-ui/react-navigation-menu@1.2.5 <- @radix-ui/react-navigation-menu 1.2.5 (1.2.17 is available)
++ @radix-ui/react-popover 1.1.6 (1.1.18 is available)
++ @radix-ui/react-popover@1.1.6 <- @radix-ui/react-popover 1.1.6 (1.1.18 is available)
++ @radix-ui/react-progress 1.1.2 (1.1.11 is available)
++ @radix-ui/react-progress@1.1.2 <- @radix-ui/react-progress 1.1.2 (1.1.11 is available)
++ @radix-ui/react-radio-group 1.2.3 (1.4.2 is available)
++ @radix-ui/react-radio-group@1.2.3 <- @radix-ui/react-radio-group 1.2.3 (1.4.2 is available)
++ @radix-ui/react-scroll-area 1.2.3 (1.2.13 is available)
++ @radix-ui/react-scroll-area@1.2.3 <- @radix-ui/react-scroll-area 1.2.3 (1.2.13 is available)
++ @radix-ui/react-select 2.1.6 (2.3.2 is available)
++ @radix-ui/react-select@2.1.6 <- @radix-ui/react-select 2.1.6 (2.3.2 is available)
++ @radix-ui/react-separator 1.1.2 (1.1.11 is available)
++ @radix-ui/react-separator@1.1.2 <- @radix-ui/react-separator 1.1.2 (1.1.11 is available)
++ @radix-ui/react-slider 1.2.3 (1.4.2 is available)
++ @radix-ui/react-slider@1.2.3 <- @radix-ui/react-slider 1.2.3 (1.4.2 is available)
++ @radix-ui/react-slot 1.1.2 (1.3.0 is available)
++ @radix-ui/react-slot@1.1.2 <- @radix-ui/react-slot 1.1.2 (1.3.0 is available)
++ @radix-ui/react-switch 1.1.3 (1.3.2 is available)
++ @radix-ui/react-switch@1.1.3 <- @radix-ui/react-switch 1.1.3 (1.3.2 is available)
++ @radix-ui/react-tabs 1.1.3 (1.1.16 is available)
++ @radix-ui/react-tabs@1.1.3 <- @radix-ui/react-tabs 1.1.3 (1.1.16 is available)
++ @radix-ui/react-toggle 1.1.2 (1.1.13 is available)
++ @radix-ui/react-toggle-group 1.1.2 (1.1.14 is available)
++ @radix-ui/react-toggle-group@1.1.2 <- @radix-ui/react-toggle-group 1.1.2 (1.1.14 is available)
++ @radix-ui/react-toggle@1.1.2 <- @radix-ui/react-toggle 1.1.2 (1.1.13 is available)
++ @radix-ui/react-tooltip 1.1.8 (1.2.11 is available)
++ @radix-ui/react-tooltip@1.1.8 <- @radix-ui/react-tooltip 1.1.8 (1.2.11 is available)
++ canvas-confetti 1.9.4
++ canvas-confetti@1.9.4 <- canvas-confetti 1.9.4
++ class-variance-authority 0.7.1
++ class-variance-authority@0.7.1 <- class-variance-authority 0.7.1
++ clsx 2.1.1
++ clsx@2.1.1 <- clsx 2.1.1
++ cmdk 1.1.1
++ cmdk@1.1.1 <- cmdk 1.1.1
++ date-fns 3.6.0 (4.4.0 is available)
++ date-fns@3.6.0 <- date-fns 3.6.0 (4.4.0 is available)
++ embla-carousel-react 8.6.0
++ embla-carousel-react@8.6.0 <- embla-carousel-react 8.6.0
++ input-otp 1.4.2
++ input-otp@1.4.2 <- input-otp 1.4.2
++ lucide-react 0.487.0 (1.23.0 is available)
++ lucide-react@0.487.0 <- lucide-react 0.487.0 (1.23.0 is available)
++ motion 12.23.24 (12.42.2 is available)
++ motion@12.23.24 <- motion 12.23.24 (12.42.2 is available)
++ next-themes 0.4.6
++ next-themes@0.4.6 <- next-themes 0.4.6
++ react 18.3.1 (19.2.7 is available)
++ react-day-picker 8.10.1 (10.0.1 is available)
++ react-day-picker@8.10.1 <- react-day-picker 8.10.1 (10.0.1 is available)
++ react-dnd 16.0.1
++ react-dnd-html5-backend 16.0.1
++ react-dnd-html5-backend@16.0.1 <- react-dnd-html5-backend 16.0.1
++ react-dnd@16.0.1 <- react-dnd 16.0.1
++ react-dom 18.3.1 (19.2.7 is available)
++ react-hook-form 7.55.0 (7.81.0 is available)
++ react-hook-form@7.55.0 <- react-hook-form 7.55.0 (7.81.0 is available)
++ react-popper 2.3.0
++ react-popper@2.3.0 <- react-popper 2.3.0
++ react-resizable-panels 2.1.7 (4.12.1 is available)
++ react-resizable-panels@2.1.7 <- react-resizable-panels 2.1.7 (4.12.1 is available)
++ react-responsive-masonry 2.7.1 (2.7.2 is available)
++ react-responsive-masonry@2.7.1 <- react-responsive-masonry 2.7.1 (2.7.2 is available)
++ react-router 7.13.0 (8.1.0 is available)
++ react-router@7.13.0 <- react-router 7.13.0 (8.1.0 is available)
++ react-slick 0.31.0
++ react-slick@0.31.0 <- react-slick 0.31.0
++ recharts 2.15.2 (3.9.2 is available) deprecated
++ recharts@2.15.2 <- recharts 2.15.2 (3.9.2 is available) deprecated
++ sonner 2.0.3 (2.0.7 is available)
++ sonner@2.0.3 <- sonner 2.0.3 (2.0.7 is available)
++ tailwind-merge 3.2.0 (3.6.0 is available)
++ tailwind-merge@3.2.0 <- tailwind-merge 3.2.0 (3.6.0 is available)
++ tw-animate-css 1.3.8 (1.4.0 is available)
++ tw-animate-css@1.3.8 <- tw-animate-css 1.3.8 (1.4.0 is available)
++ vaul 1.1.2
++ vaul@1.1.2 <- vaul 1.1.2
+
+devDependencies:
++ @tailwindcss/vite 4.1.12 (4.3.2 is available)
++ @vitejs/plugin-react 4.7.0 (6.0.3 is available)
++ tailwindcss 4.1.12 (4.3.2 is available)
++ vite 6.3.5 (8.1.3 is available)
+
+╭ Warning ───────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                            │
+│   Ignored build scripts: @tailwindcss/oxide@4.1.12, esbuild@0.25.12.                       │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed to run scripts.   │
+│                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────╯
+Done in 29.9s using pnpm v10.33.0
+PS C:\Users\cadet\Documents\GitHub\RedesignForErgonomics> pnpm dev
+
+> @figma/my-make-file@0.0.1 dev C:\Users\cadet\Documents\GitHub\RedesignForErgonomics
+> vite
+
+C:\Users\cadet\Documents\GitHub\RedesignForErgonomics\node_modules\.pnpm\rollup@4.62.2\node_modules\rollup\dist\native.js:121
+                throw new Error(
+                      ^
+
+Error: Cannot find module @rollup/rollup-win32-x64-msvc. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+    at requireWithFriendlyError (C:\Users\cadet\Documents\GitHub\RedesignForErgonomics\node_modules\.pnpm\rollup@4.62.2\node_modules\rollup\dist\native.js:121:9)
+    at Object.<anonymous> (C:\Users\cadet\Documents\GitHub\RedesignForErgonomics\node_modules\.pnpm\rollup@4.62.2\node_modules\rollup\dist\native.js:130:76)
+    at Module._compile (node:internal/modules/cjs/loader:1944:14)
+    at Object..js (node:internal/modules/cjs/loader:2084:10)
+    at Module.load (node:internal/modules/cjs/loader:1666:32)
+    at Module._load (node:internal/modules/cjs/loader:1447:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:260:19)
+    at loadCJSModuleWithModuleLoad (node:internal/modules/esm/translators:373:15)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:245:9)
+    at ModuleJob.run (node:internal/modules/esm/module_job:447:25) {
+  [cause]: Error: Cannot find module '@rollup/rollup-win32-x64-msvc'
+  Require stack:
+  - C:\Users\cadet\Documents\GitHub\RedesignForErgonomics\node_modules\.pnpm\rollup@4.62.2\node_modules\rollup\dist\native.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1568:15)
+      at wrapResolveFilename (node:internal/modules/cjs/loader:1122:27)
+      at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1146:10)
+      at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1173:12)
+      at Module._load (node:internal/modules/cjs/loader:1345:5)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:260:19)
+      at Module.require (node:internal/modules/cjs/loader:1689:12)
+      at require (node:internal/modules/helpers:191:16)
+      at requireWithFriendlyError (C:\Users\cadet\Documents\GitHub\RedesignForErgonomics\node_modules\.pnpm\rollup@4.62.2\node_modules\rollup\dist\native.js:103:10)
+      at Object.<anonymous> (C:\Users\cadet\Documents\GitHub\RedesignForErgonomics\node_modules\.pnpm\rollup@4.62.2\node_modules\rollup\dist\native.js:130:76) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'C:\\Users\\cadet\\Documents\\GitHub\\RedesignForErgonomics\\node_modules\\.pnpm\\rollup@4.62.2\\node_modules\\rollup\\dist\\native.js'
+    ]
+  }
+}
+
+Node.js v26.4.0
+ ELIFECYCLE  Command failed with exit code 1.
+PS C:\Users\cadet\Documents\GitHub\RedesignForErgonomics>

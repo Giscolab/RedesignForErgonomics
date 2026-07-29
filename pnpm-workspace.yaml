@@ -1,10 +1,7 @@
-packages:
-  - '.'
-supportedArchitectures:
-  os:
-    - linux
-  cpu:
-    - x64
-    - arm64
-  libc:
-    - glibc
+# Configuration pnpm (compatible v10 et v11+)
+onlyBuiltDependencies:
+  - "@tailwindcss/oxide"
+  - esbuild
+
+overrides:
+  vite: "6.3.5"

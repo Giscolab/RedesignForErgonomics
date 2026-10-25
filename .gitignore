@@ -1,0 +1,104 @@
+# ─── Dépendances ────────────────────────────────────────────────────────────
+node_modules/
+.pnpm-store/
+
+# ─── Build & cache ──────────────────────────────────────────────────────────
+dist/
+build/
+.cache/
+.vite/
+.vite-temp/
+.turbo/
+.eslintcache
+.stylelintcache
+vite.config.*.timestamp-*
+*.tsbuildinfo
+
+# ─── Variables d'environnement ──────────────────────────────────────────────
+.env
+.env.*
+# Uniquement des exemples sans valeurs réelles.
+!.env.example
+!.env.*.example
+
+# ─── Secrets & identifiants locaux ─────────────────────────────────────────
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+.npmrc.local
+.netrc
+.npm-token
+credentials.json
+service-account*.json
+serviceAccount*.json
+.secrets/
+secrets/
+.ssh/
+.aws/
+.azure/
+.config/gcloud/
+
+# ─── Éditeurs & IDEs ────────────────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ─── Système ────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ─── Logs ───────────────────────────────────────────────────────────────────
+*.log
+*-debug.log*
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── Tests & couverture ─────────────────────────────────────────────────────
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+blob-report/
+
+# ─── Figma Make (fichiers internes) ─────────────────────────────────────────
+.claude-replay.*
+__figma__entrypoint__.ts
+.tmp-*
+
+# ─── Divers ─────────────────────────────────────────────────────────────────
+*.local
+*.bak
+*.orig
+*~
+/tmp/
+/temp/
+
+logs/
+/.figma/design-context/
+# Platform-managed agentplat state, not project source. In the
+# client-initiated single-repo workspace layout (make's `Path: "."` spec) the
+# repo root IS the workspace root, so these land inside this repo rather than
+# beside it.
+/.plugins/
+/.opencode-skills/
+
+# Conserver les sources, assets, configurations et pnpm-lock.yaml :
+# ils sont nécessaires pour reproduire le projet.
+# Les règles ci-dessus ne retirent pas les fichiers déjà suivis par Git.

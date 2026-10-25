@@ -86,6 +86,7 @@ __figma__entrypoint__.ts
 *.local
 *.bak
 *.orig
+*.package-lock.json
 *~
 /tmp/
 /temp/

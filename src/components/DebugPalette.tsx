@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { Activity, Clock, Zap, HardDrive, CheckCircle, AlertCircle } from "lucide-react";
-import { Progress } from "./ui/progress";
+import { Progress } from "../app/components/ui/progress";
 
 interface StepData {
   name: string;

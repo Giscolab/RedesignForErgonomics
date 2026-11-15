@@ -1,10 +1,10 @@
 import { motion } from "motion/react";
 import { ChevronLeft, ChevronRight, Sparkles } from "lucide-react";
-import { Button } from "./ui/button";
-import { Slider } from "./ui/slider";
-import { Switch } from "./ui/switch";
-import { Label } from "./ui/label";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select";
+import { Button } from "../app/components/ui/button";
+import { Slider } from "../app/components/ui/slider";
+import { Switch } from "../app/components/ui/switch";
+import { Label } from "../app/components/ui/label";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../app/components/ui/select";
 
 interface ToolPanelProps {
   isOpen: boolean;

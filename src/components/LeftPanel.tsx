@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, Sliders, Palette, Layers, Sparkles, Info } from "lucide-react";
-import { Button } from "./ui/button";
-import { Slider } from "./ui/slider";
-import { Switch } from "./ui/switch";
-import { Label } from "./ui/label";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select";
-import { Separator } from "./ui/separator";
-import { ScrollArea } from "./ui/scroll-area";
+import { Button } from "../app/components/ui/button";
+import { Slider } from "../app/components/ui/slider";
+import { Switch } from "../app/components/ui/switch";
+import { Label } from "../app/components/ui/label";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../app/components/ui/select";
+import { Separator } from "../app/components/ui/separator";
+import { ScrollArea } from "../app/components/ui/scroll-area";
 
 interface LeftPanelProps {
   isOpen: boolean;

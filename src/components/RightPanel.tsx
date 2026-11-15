@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Palette, Bug, ChevronDown, Copy, Check } from "lucide-react";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
-import { ScrollArea } from "./ui/scroll-area";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../app/components/ui/tabs";
+import { ScrollArea } from "../app/components/ui/scroll-area";
 import { 
   Table, 
   TableBody, 
@@ -9,8 +9,8 @@ import {
   TableHead, 
   TableHeader, 
   TableRow 
-} from "./ui/table";
-import { Progress } from "./ui/progress";
+} from "../app/components/ui/table";
+import { Progress } from "../app/components/ui/progress";
 
 interface ColorData {
   id: number;

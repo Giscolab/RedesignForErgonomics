@@ -1,5 +1,5 @@
 import { Image, Palette, Grid3x3, Hash, ArrowLeftRight, Activity } from "lucide-react";
-import { Button } from "./ui/button";
+import { Button } from "../app/components/ui/button";
 
 interface Tab {
   id: string;

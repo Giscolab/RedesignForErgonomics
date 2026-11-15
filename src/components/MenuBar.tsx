@@ -11,8 +11,8 @@ import {
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "./ui/dropdown-menu";
-import { Button } from "./ui/button";
+} from "../app/components/ui/dropdown-menu";
+import { Button } from "../app/components/ui/button";
 
 export function MenuBar() {
   return (

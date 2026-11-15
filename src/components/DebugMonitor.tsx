@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { Bug, CheckCircle, AlertCircle, Clock } from "lucide-react";
-import { Progress } from "./ui/progress";
+import { Progress } from "../app/components/ui/progress";
 import {
   Table,
   TableBody,
@@ -8,8 +8,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "./ui/table";
-import { Badge } from "./ui/badge";
+} from "../app/components/ui/table";
+import { Badge } from "../app/components/ui/badge";
 
 interface DebugEntry {
   id: number;

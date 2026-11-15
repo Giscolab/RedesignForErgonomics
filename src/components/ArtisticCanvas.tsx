@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { Download, ZoomIn, ZoomOut, RotateCcw, Maximize2 } from "lucide-react";
-import { Button } from "./ui/button";
+import { Button } from "../app/components/ui/button";
 import { useState } from "react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 

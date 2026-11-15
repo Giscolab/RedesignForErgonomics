@@ -1,5 +1,5 @@
 import { Palette, Save, Upload, Paintbrush } from "lucide-react";
-import { Button } from "./ui/button";
+import { Button } from "../app/components/ui/button";
 
 export function TopBar() {
   return (

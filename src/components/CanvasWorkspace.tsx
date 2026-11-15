@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ZoomIn, ZoomOut, RotateCcw, Hand, Maximize2 } from "lucide-react";
-import { Button } from "./ui/button";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select";
+import { Button } from "../app/components/ui/button";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../app/components/ui/select";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 interface CanvasWorkspaceProps {

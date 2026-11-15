@@ -1,9 +1,9 @@
 import { motion } from "motion/react";
 import { Sliders, Layers, Droplet, Palette, Sparkles, ChevronRight } from "lucide-react";
-import { Slider } from "./ui/slider";
-import { Switch } from "./ui/switch";
-import { Label } from "./ui/label";
-import { Button } from "./ui/button";
+import { Slider } from "../app/components/ui/slider";
+import { Switch } from "../app/components/ui/switch";
+import { Label } from "../app/components/ui/label";
+import { Button } from "../app/components/ui/button";
 import { useState } from "react";
 
 interface ControlCardProps {

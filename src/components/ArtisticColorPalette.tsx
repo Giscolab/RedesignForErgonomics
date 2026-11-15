@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { Palette, Sparkles } from "lucide-react";
-import { Button } from "./ui/button";
+import { Button } from "../app/components/ui/button";
 
 interface ArtisticColorPaletteProps {
   colors: Array<{ id: number; hex: string; label?: string }>;

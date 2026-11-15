@@ -6,10 +6,10 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "./ui/table";
-import { Input } from "./ui/input";
-import { Badge } from "./ui/badge";
-import { Button } from "./ui/button";
+} from "../app/components/ui/table";
+import { Input } from "../app/components/ui/input";
+import { Badge } from "../app/components/ui/badge";
+import { Button } from "../app/components/ui/button";
 import { ArrowUpDown, Search, Filter } from "lucide-react";
 
 interface DebugEntry {

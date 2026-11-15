@@ -8,7 +8,7 @@ import {
   Droplet,
   Type
 } from "lucide-react";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "../app/components/ui/tooltip";
 import { useState } from "react";
 
 interface Tool {
